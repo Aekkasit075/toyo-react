@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -57,13 +58,14 @@ export default function Home() {
           </div>
 
           {/* CARD 2 */}
-          <div className="w-[210px] h-[160px] bg-orange-100 rounded-2xl flex flex-col items-center justify-center hover:shadow-lg transition">
-            <div className="text-4xl mb-3">📖</div>
-            <p className="text-[24px] leading-none text-gray-800">
-              วิธีการใช้งาน
-            </p>
-          </div>
-
+          <Link href="/qapage">
+            <div className="w-[210px] h-[160px] bg-orange-100 rounded-2xl flex flex-col items-center justify-center hover:shadow-lg transition">
+              <div className="text-4xl mb-3">📖</div>            
+                <p className="text-[24px] leading-none text-gray-800">
+                  วิธีการใช้งาน
+                </p>                       
+            </div>
+          </Link> 
           {/* CARD 3 */}
           <div className="w-[210px] h-[160px] bg-green-100 rounded-2xl flex flex-col items-center justify-center hover:shadow-lg transition">
             <div className="text-4xl mb-3">📊</div>

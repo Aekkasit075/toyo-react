@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-white shadow-md">
+    <nav className="w-full bg-white border-b border-gray-200 shadow-md">
 
       {/* 🔥 ADD CONTAINER ตรงนี้ */}
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
