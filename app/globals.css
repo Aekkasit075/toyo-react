@@ -24,6 +24,6 @@
 /* 🧠 Global reset */
 body {
   font-family: "supermarket", Arial, sans-serif;
-  background: var(--background);
+  background-color: #ffffff;
   color: var(--foreground);
 }
