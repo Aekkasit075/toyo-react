@@ -9,7 +9,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="th">
-
       <head>
         {/* Font Awesome CDN */}
         <link
@@ -17,7 +16,6 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         />
       </head>
-
       <body className="flex flex-col min-h-screen">
 
         <Navbar />
@@ -27,7 +25,7 @@ export default function RootLayout({
         </main>
 
         <Footer />
-
+        
       </body>
     </html>
   )
