@@ -41,7 +41,7 @@ export default function CourseCard({ title, image, author }: Props) {
                 <div className="flex flex-wrap gap-2 mb-4 text-xs text-gray-600">
 
                     <div className="flex items-center gap-1 px-3 py-1 rounded-full border border-gray-200 bg-gray-50">
-                        <i className="fa-regular fa-book"></i>
+                        <i className="fa-solid fa-book-open"></i>
                         <span>47 lesson</span>
                     </div>
 

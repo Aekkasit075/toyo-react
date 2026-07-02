@@ -41,9 +41,10 @@ export default function Navbar() {
 
         {/* DESKTOP LOGIN */}
         <div className="hidden md:block">
-          <button className="bg-blue-800 text-white px-5 py-2 rounded-full hover:bg-blue-900 transition">
+          <Link href="/login"
+          className="bg-blue-800 text-white px-5 py-2 rounded-full hover:bg-blue-900 transition">
             เข้าสู่ระบบ
-          </button>
+          </Link>
         </div>
 
         {/* HAMBURGER */}
@@ -82,9 +83,10 @@ export default function Navbar() {
           <Link href="/">วิธีการใช้งาน</Link>
           <Link href="/">ติดต่อเรา</Link>
 
-          <button className="bg-blue-800 text-white px-5 py-2 rounded-full mt-3">
+          <Link href="/login"
+          className="bg-blue-800 text-white px-5 py-2 rounded-full mt-3 text-center">
             เข้าสู่ระบบ
-          </button>
+          </Link>
 
         </div>
 

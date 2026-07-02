@@ -2,8 +2,10 @@ import CourseCard from "./CourseCard"
 
 export default function CourseSection() {
   return (
-    <div className="w-full px-6 lg:px-10 xl:px-20">
-        <div className="bg-[#F7F7F7] py-12 rounded-2xl">
+    <div className="w-full bg-[#F7F7F7] py-12">
+      
+      {/* container สำหรับจัด content */}
+      <div className="px-6 lg:px-10 xl:px-20">
 
         {/* HEADER */}
         <div className="flex items-center justify-between mb-8">
