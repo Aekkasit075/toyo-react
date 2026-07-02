@@ -1,5 +1,6 @@
 import Image from "next/image";
 import CourseSection from "@/components/course/CourseSection";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -65,13 +66,14 @@ export default function Home() {
           </div>
 
           {/* CARD 2 */}
-          <div className="w-full sm:w-[220px] h-[160px] bg-orange-100 rounded-2xl flex flex-col items-center lg:items-start justify-center px-8 hover:shadow-lg transition">
-            <div className="text-4xl mb-3"><i className="fa-sharp fa-solid fa-book-open text-yellow-500"></i></div>
-            <p className="text-[24px] leading-none text-gray-800">
-              วิธีการใช้งาน
-            </p>
-          </div>
-
+          <Link href="/qapage">
+            <div className="w-full sm:w-[220px] h-[160px] bg-orange-100 rounded-2xl flex flex-col items-center lg:items-start justify-center px-8 hover:shadow-lg transition">
+              <div className="text-4xl mb-3"><i className="fa-sharp fa-solid fa-book-open text-yellow-500"></i></div>
+              <p className="text-[24px] leading-none text-gray-800">
+                วิธีการใช้งาน
+              </p>
+            </div>
+          </Link>
           {/* CARD 3 */}
           <div className="w-full sm:w-[220px] h-[160px] bg-green-100 rounded-2xl flex flex-col items-center lg:items-start justify-center px-8 hover:shadow-lg transition">
             <div className="text-4xl mb-3"><i className="fa-solid fa-list-check text-blue-800"></i></div>
