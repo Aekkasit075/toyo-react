@@ -7,6 +7,7 @@ import { useState } from "react"
 export default function Navbar() {
   const [open, setOpen] = useState(false)
 
+
   return (
     <nav className="w-full bg-white shadow-md relative">
 

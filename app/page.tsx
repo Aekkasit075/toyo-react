@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CourseSection from "@/components/course/CourseSection";
 
+
 export default function Home() {
   return (
     <div className="flex flex-col bg-zinc-50">
