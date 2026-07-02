@@ -35,9 +35,12 @@ export default function Navbar() {
         </div>
 
         {/* RIGHT: Login */}
-        <button className="bg-blue-800 text-white px-5 py-2 rounded-full hover:bg-blue-900 transition">
+        <Link
+          href="/login"
+          className="bg-blue-800 text-white px-5 py-2 rounded-full hover:bg-blue-900 transition"
+        >
           เข้าสู่ระบบ
-        </button>
+        </Link>
 
       </div>
     </nav>
