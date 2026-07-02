@@ -2,36 +2,79 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 bg-zinc-50">
+    <div className="flex flex-col bg-zinc-50">
 
-      {/* HERO BANNER */}
-      <div className="relative w-full h-[00px] md:h-[450px] lg:h-[600px] overflow-hidden">
+      {/* HERO BANNER (auto height) */}
+      <div className="relative w-full">
 
-        {/* BACKGROUND IMAGE */}
         <Image
           src="/images/banners/banner.png"
           alt="banner"
-          fill
-          className="object-cover"
+          width={1920}
+          height={1080}
+          className="w-full h-auto"
           priority
         />
 
-        {/* DARK OVERLAY */}
-        <div className="absolute inset-0 bg-black/10"></div>
+        {/* overlay */}
+        <div className="absolute inset-0 bg-black/10" />
 
-        {/* LOGO BOTTOM RIGHT (ใหญ่ขึ้น) */}
+        {/* logo */}
         <div className="absolute bottom-4 right-4">
           <Image
             src="/images/logos/toyo2.png"
             alt="logo"
-            width={560}
-            height={560}
+            width={481}
+            height={49}
             className="drop-shadow-xl p-2 rounded-lg"
           />
         </div>
 
       </div>
 
+      {/* 🔽 MENU SECTION */}
+      <div className="max-w-7xl mx-auto px-6 py-24 flex items-center justify-between w-full">
+
+        {/* LEFT TITLE */}
+        <div className="w-1/3">
+          <h2 className="leading-none font-normal text-black text-[84px]">
+            เมนู<br />
+            <span className="text-[#2581D1] font-[500]">
+              ของเรา
+            </span>
+          </h2>
+        </div>
+
+        {/* RIGHT CARDS */}
+        <div className="w-2/3 flex justify-end gap-8">
+
+          {/* CARD 1 */}
+          <div className="w-[210px] h-[160px] bg-pink-100 rounded-2xl flex flex-col items-center justify-center hover:shadow-lg transition">
+            <div className="text-4xl mb-3">📘</div>
+            <p className="text-[24px] leading-none text-gray-800">
+              หลักสูตรของฉัน
+            </p>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="w-[210px] h-[160px] bg-orange-100 rounded-2xl flex flex-col items-center justify-center hover:shadow-lg transition">
+            <div className="text-4xl mb-3">📖</div>
+            <p className="text-[24px] leading-none text-gray-800">
+              วิธีการใช้งาน
+            </p>
+          </div>
+
+          {/* CARD 3 */}
+          <div className="w-[210px] h-[160px] bg-green-100 rounded-2xl flex flex-col items-center justify-center hover:shadow-lg transition">
+            <div className="text-4xl mb-3">📊</div>
+            <p className="text-[24px] leading-none text-gray-800">
+              สถานะการเรียน
+            </p>
+          </div>
+
+        </div>
+
+      </div>
     </div>
   );
 }

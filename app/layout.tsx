@@ -9,18 +9,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="th">
-      <head>
-        {/* Tailwind CDN */}
-        <script src="https://cdn.tailwindcss.com"></script>
 
-        {/* Font Awesome */}
+      <head>
+        {/* Font Awesome CDN */}
         <link
           rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         />
       </head>
 
       <body className="flex flex-col min-h-screen">
+
         <Navbar />
 
         <main className="flex-1">
@@ -28,6 +27,7 @@ export default function RootLayout({
         </main>
 
         <Footer />
+
       </body>
     </html>
   )
