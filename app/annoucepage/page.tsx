@@ -14,36 +14,42 @@ export default function AnnoucePage()
                     title='DummyText'
                     date='10 เมษายน 2564'
                     text='Name what is this'
+                    source='/'
                 />
                 <Acard 
                     imgsrc='https://images.pexels.com/photos/16595082/pexels-photo-16595082.jpeg'
                     title='DummyText'
                     date='10 เมษายน 2564'
                     text='Name what is this'
+                    source='/'
                 />
                 <Acard 
                     imgsrc='https://images.pexels.com/photos/8190663/pexels-photo-8190663.jpeg'
                     title='DummyText'
                     date='10 เมษายน 2564'
                     text='Name what is this'
+                    source='/'
                 />
                  <Acard 
                     imgsrc='https://images.pexels.com/photos/8911016/pexels-photo-8911016.jpeg'
                     title='DummyText'
                     date='10 เมษายน 2564'
                     text='Name what is this'
+                    source='/'
                 />
                  <Acard 
                     imgsrc='https://images.pexels.com/photos/28942316/pexels-photo-28942316.jpeg'
                     title='DummyText'
                     date='10 เมษายน 2564'
                     text='Name what is this'
+                    source='/'
                 />
                 <Acard 
                     imgsrc='https://images.pexels.com/photos/3786091/pexels-photo-3786091.jpeg'
                     title='DummyText'
                     date='10 เมษายน 2564'
                     text='Name what is this'
+                    source='/'
                 />
             </div>
         </div>
