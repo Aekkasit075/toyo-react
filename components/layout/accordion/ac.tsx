@@ -29,12 +29,14 @@ export default function accordion({title, info} : {title : string, info : string
     return(
         <div className={styles.accordion}>
             <div className={styles.title} onClick={toggleAccordion}>
-                {title}
-                <div className={styles.info}>
-                    {isOpen ? info : ""}
-                </div>
+               {title}
             </div>
-            
+            { isOpen ?
+            <div className={styles.info}>
+                {info}
+            </div>
+            : ""
+            }
         </div>
     )
 }
