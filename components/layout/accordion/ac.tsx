@@ -12,7 +12,7 @@ import styles from "./ac.module.css";
 //     id: string | null
 // } | null > (null);
 
-export default function accordion({title, info} : {title : string, info : string})
+export default function Accordion({title, info} : {title : string, info : string})
 {
     // const [activeContent, setActiveContent] = useState<string | null >(null);
     // const handleTrigger = (id: string | null) => {
@@ -27,16 +27,16 @@ export default function accordion({title, info} : {title : string, info : string
     
 
     return(
-        <div className={styles.accordion}>
-            <div className={styles.title} onClick={toggleAccordion}>
-               {title}
+            <div className={styles.accordion}>
+                <div className={styles.title} onClick={toggleAccordion}>
+                {title}
+                </div>
+                { isOpen ?
+                <div className={styles.info}>
+                    {info}
+                </div>
+                : ""
+                }
             </div>
-            { isOpen ?
-            <div className={styles.info}>
-                {info}
-            </div>
-            : ""
-            }
-        </div>
     )
 }

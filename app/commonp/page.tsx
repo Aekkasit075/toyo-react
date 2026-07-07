@@ -14,6 +14,8 @@ export default function Commonp()
             </div>
             <div className={styles.content}>
                 <Accordion title = '1.การเรียน/สอบ' info = 'กดเข้าปุ่มนู้นปุ่มนี้เดี๋ยวก็ได้เอง'/>
+                <Accordion title = '2.เปลี่ยนรหัสผ่าน' info = 'กดปุ่มเปลี่ยนรหัส'/>
+                <Accordion title = '3.วิธีแจ้งปัญหาการใข้งาน' info = 'เข้าไปที่หน้าตั่งค่าแล้วกดปุ่มร้องเรียน'/>
             </div>
         </div>
     )
