@@ -173,7 +173,7 @@ export default function VideoPage() {
           onClick={() => setPage(page - 1)}
           className="px-4 py-2 border text-sm disabled:opacity-40"
         >
-          Previous
+          &lt;&lt; Previous
         </button>
 
 
@@ -203,7 +203,7 @@ export default function VideoPage() {
           onClick={() => setPage(page + 1)}
           className="px-4 py-2 border text-sm disabled:opacity-40"
         >
-          Next
+          Next &gt;&gt;
         </button>
 
 
