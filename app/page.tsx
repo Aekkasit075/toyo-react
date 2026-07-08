@@ -87,6 +87,8 @@ export default function Home() {
       {/* 🔽 COURSE SECTION */}
       <CourseSection />
 
+      
+
     </div>
   );
 }
