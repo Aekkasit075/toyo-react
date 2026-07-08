@@ -20,7 +20,7 @@ export default function LoginPage() {
           <Image
             src="/images/logos/toyo2.png"
             alt="Toyo Logo"
-            width={280}
+            width={440}
             height={70}
             priority
           />

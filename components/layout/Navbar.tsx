@@ -34,7 +34,7 @@ export default function Navbar() {
           <Link href="/" className="hover:text-blue-800 transition">หลักสูตร</Link>
           <Link href="/annoucepage" className="hover:text-blue-800 transition">ข่าวประชาสัมพันธ์</Link>
           <Link href="/commonp" className="hover:text-blue-800 transition">คำถามที่พบบ่อย</Link>
-          <Link href="/" className="hover:text-blue-800 transition">วิธีการใช้งาน</Link>
+          <Link href="/qapage" className="hover:text-blue-800 transition">วิธีการใช้งาน</Link>
           <Link href="/" className="hover:text-blue-800 transition">ติดต่อเรา</Link>
           
         </div>
@@ -78,9 +78,9 @@ export default function Navbar() {
           </Link>
 
           <Link href="/">หลักสูตร</Link>
-          <Link href="/">ข่าวประชาสัมพันธ์</Link>
-          <Link href="/">คำถามที่พบบ่อย</Link>
-          <Link href="/">วิธีการใช้งาน</Link>
+          <Link href="/annoucepage">ข่าวประชาสัมพันธ์</Link>
+          <Link href="/commonp">คำถามที่พบบ่อย</Link>
+          <Link href="/qapage">วิธีการใช้งาน</Link>
           <Link href="/">ติดต่อเรา</Link>
 
           <Link href="/login"
