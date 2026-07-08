@@ -1,0 +1,107 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.title
+{
+    display: flex;
+    color: black;
+    width: 100;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    justify-content: center;
+    font-size: 25px;
+    /* background-color: red; */
+}
+
+.picture
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture img
+{
+    width: 480px;
+    height: 330px;
+}
+
+.contentcontainer
+{
+    display: flex;
+}
+
+.information
+{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border: solid rgb(236, 236, 236) 2px;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 3.5%;
+    font-size: 17px;
+}
+
+.information img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.location
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.locationcon
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.email
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.emailcon
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.phonenum
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.phonenumcon
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
