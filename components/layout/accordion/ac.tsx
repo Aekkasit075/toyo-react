@@ -15,7 +15,6 @@ export default function Accordion({title, info} : {title : string, info : string
                     <div className={styles.titlecon}>
                         {title} 
                     </div>
-                    
                     <div className={styles.arrowhead}>
                         <p>⌄</p>
                     </div>                    
