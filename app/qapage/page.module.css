@@ -1,0 +1,29 @@
+.border
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.ptitle
+{
+    display: flex;
+    font-size: 25px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5%;
+    color: black;
+}
+
+.pcontent
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    gap: 2%;
+    justify-content: center;
+    overflow: hidden;
+}

@@ -31,12 +31,12 @@ export default function Navbar() {
             <i className="fa-solid fa-house text-3xl"></i>
           </Link>
 
-          <Link href="/" className="hover:text-blue-800">หลักสูตร</Link>
-          <Link href="/" className="hover:text-blue-800">ข่าวประชาสัมพันธ์</Link>
-          <Link href="/" className="hover:text-blue-800">คำถามที่พบบ่อย</Link>
-          <Link href="/" className="hover:text-blue-800">วิธีการใช้งาน</Link>
-          <Link href="/" className="hover:text-blue-800">ติดต่อเรา</Link>
-
+          <Link href="/" className="hover:text-blue-800 transition">หลักสูตร</Link>
+          <Link href="/annoucepage" className="hover:text-blue-800 transition">ข่าวประชาสัมพันธ์</Link>
+          <Link href="/commonp" className="hover:text-blue-800 transition">คำถามที่พบบ่อย</Link>
+          <Link href="/" className="hover:text-blue-800 transition">วิธีการใช้งาน</Link>
+          <Link href="/" className="hover:text-blue-800 transition">ติดต่อเรา</Link>
+          
         </div>
 
         {/* DESKTOP LOGIN */}
