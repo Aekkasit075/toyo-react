@@ -18,7 +18,11 @@ const nextConfig: NextConfig = {
       {
       protocol: "https",
       hostname: "www.globalcareercounsellor.com",
-      }
+      },
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
     ],
   },
 };
