@@ -43,7 +43,7 @@ export default function RegisterPage() {
 
                 {/* Birthday */}
                 <label className="block mt-4 text-gray-500 text-sm">
-                    วัน/เดือน/ปี
+                    วัน/เดือน/ปี เกิด
                 </label>
 
                 <div className="grid grid-cols-3 gap-3">
