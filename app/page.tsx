@@ -2,6 +2,8 @@ import Image from "next/image";
 import CourseSection from "@/components/course/CourseSection";
 import AnnounceSection from "@/components/announce/announceSection";
 import VideoceSection from "@/components/video/VideoSection";
+import QASection from "@/components/qa/qaSection";
+import ContactSection from "@/components/contact/ContactSection";
 import Link from "next/link";
 
 
@@ -156,6 +158,11 @@ export default function Home() {
       {/* 🔽 VIDEO SECTION */}
       <VideoceSection />
 
+      {/* 🔽 VIDEO SECTION */}
+      <QASection />
+
+      {/* 🔽 CONTACT SECTION */}
+      <ContactSection />
     </div>
   );
 }
