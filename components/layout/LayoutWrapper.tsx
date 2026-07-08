@@ -12,12 +12,11 @@ export default function LayoutWrapper({
 
   const pathname = usePathname()
 
-  const hideLayout =
-    pathname === "/login"
+  // ซ่อน Navbar/Footer สำหรับหน้า login และ register
+  const hideLayout = ["/login", "/register"].includes(pathname)
 
   return (
     <>
-
       {!hideLayout && <Navbar />}
 
       <main className="flex-1">
@@ -25,7 +24,6 @@ export default function LayoutWrapper({
       </main>
 
       {!hideLayout && <Footer />}
-
     </>
   )
 }
