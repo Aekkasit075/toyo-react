@@ -2,7 +2,7 @@ import CourseCard from "./CourseCard"
 
 export default function CourseSection() {
   return (
-    <div className="w-full bg-[#F7F7F7] py-12">
+    <div className="w-full bg-[#eeeeee] py-12">
       
       {/* container สำหรับจัด content */}
       <div className="px-6 lg:px-10 xl:px-20">
@@ -23,13 +23,13 @@ export default function CourseSection() {
 
             <CourseCard
             title="Entrepreneurship & Business Growth Strategies Course"
-            image="/images/courses/course1.png"
+            image="https://www.globalcareercounsellor.com/blog/wp-content/uploads/2018/05/Online-Career-Counselling-course.jpg"
             author="Sausage Rcode"
             />
 
             <CourseCard
             title="Entrepreneurship & Business Growth Strategies Course"
-            image="/images/courses/course1.png"
+            image="https://images.ctfassets.net/2htm8llflwdx/11XVEG6328RyDRxMdYJgwO/1f26de6b5b8941c805492ddb6396b8ec/SL_Professional_Courses_SEO.jpg"
             author="Sausage Rcode"
             />
 

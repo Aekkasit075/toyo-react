@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link"
 import { User, Lock, Eye } from "lucide-react";
 
+
 export default function LoginPage() {
   return (
     <div
@@ -19,7 +20,7 @@ export default function LoginPage() {
           <Image
             src="/images/logos/toyo2.png"
             alt="Toyo Logo"
-            width={280}
+            width={440}
             height={70}
             priority
           />
@@ -106,20 +107,12 @@ export default function LoginPage() {
         </p>
 
         {/* Register */}
-        <button
-          className="
-            w-full
-            bg-yellow-500
-            hover:bg-yellow-600
-            text-white
-            py-3
-            rounded
-            font-medium
-            transition
-          "
+        <Link
+          href="/register"
+          className="block w-full bg-yellow-500 hover:bg-yellow-600 text-white py-3 rounded text-center font-medium transition"
         >
           ลงทะเบียน Toyo Seikan
-        </button>
+        </Link>
 
       </div>
     </div>
