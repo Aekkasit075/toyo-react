@@ -1,0 +1,142 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.title
+{
+    display: flex;
+    color: black;
+    width: 100;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    justify-content: center;
+    font-size: 25px;
+    /* background-color: red; */
+}
+
+.picture
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture img
+{
+    width: 480px;
+    height: 330px;
+}
+
+.contentcontainer
+{
+    display: flex;
+}
+
+.information
+{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border: solid rgb(236, 236, 236) 2px;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding: 3.5%;
+    font-size: 17px;
+}
+
+.information img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.location
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.locationcon
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.email
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+.emailcon
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.phonenum
+{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.phonenumcon
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.googlemap {
+    display: flex;
+    width: 100%;
+    height: 450px; 
+    margin-top: 40px; 
+}
+
+.googlemap gmp-map {
+    width: 100%;
+    height: 100%;
+}
+
+.price-tag {
+    background-color: #4285f4;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 15px;
+    position: relative;
+    transform: translateY(-8px);
+}
+
+.price-tag::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #4285f4;
+}
