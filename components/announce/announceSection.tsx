@@ -127,7 +127,7 @@ export default function NewsSection() {
       <div className="flex justify-between items-center mb-6">
 
 
-        <h1 className="text-2xl font-semibold border-b-4 border-blue-500 pb-2">
+        <h1 className="text-2xl font-semibold border-b-4 border-blue-500 pb-2 text-black">
           ข่าวประชาสัมพันธ์
         </h1>
 
