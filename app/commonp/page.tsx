@@ -1,12 +1,13 @@
 import styles from './page.module.css'
 import Script from 'next/script';
 import Accordion from '@/components/layout/accordion/ac';
+import Link from 'next/link'
 
 export default function Commonp()
 {
     return(
         <div className={styles.body}>
-            <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css"/>
+            <Link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css"/>
             <Script src="https://code.jquery.com/jquery-3.7.1.js" strategy="beforeInteractive"/>
             <Script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js" strategy="lazyOnload"/>
             <div className={styles.title}>
