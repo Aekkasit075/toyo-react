@@ -144,7 +144,7 @@ export default function VideoSection() {
         <div className="flex justify-between items-center mb-6">
 
 
-        <h2 className="text-xl font-semibold border-b-4 border-blue-500 pb-2">
+        <h2 className="text-xl font-semibold border-b-4 border-blue-500 pb-2 text-black">
             วิดีโอแนะนำ
         </h2>
 
