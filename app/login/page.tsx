@@ -72,8 +72,11 @@ export default function LoginPage() {
         </div>
 
         {/* Login Button */}
-        <Link
-          href="/"
+        <button
+          onClick={() => {
+            localStorage.setItem("login", "true")
+            window.location.href = "/"
+          }}
           className="
             w-full
             mt-5
@@ -84,12 +87,10 @@ export default function LoginPage() {
             rounded
             font-medium
             transition
-            text-center
-            block
           "
         >
           เข้าสู่ระบบ
-        </Link>
+        </button>
 
         {/* Divider */}
         <div className="flex items-center gap-3 my-6">
