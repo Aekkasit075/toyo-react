@@ -38,7 +38,7 @@ export default function FAQSection() {
     <section className="w-full py-16 px-6">
 
 
-      <h2 className="text-center text-5xl font-medium mb-10">
+      <h2 className="text-center text-5xl font-medium mb-10 text-black">
 
         คำถามที่พบบ่อย
 
@@ -46,7 +46,7 @@ export default function FAQSection() {
 
 
 
-      <div className="w-full max-w-xl mx-auto space-y-3">
+      <div className="w-full max-w-xl mx-auto space-y-3 text-black">
 
 
         {
@@ -84,7 +84,7 @@ export default function FAQSection() {
               {
                 open === index && (
 
-                  <div className="px-5 py-4 text-sm text-gray-600 bg-gray-50">
+                  <div className="px-5 py-4 text-sm text-gray-600 bg-gray-50 border-t-1 border-gray-200">
 
                     {item.detail}
 
