@@ -62,7 +62,7 @@ export default function FAQSection() {
                 onClick={() =>
                   setOpen(open === index ? null : index)
                 }
-                className="w-full h-[48px] px-5 flex items-center justify-between text-sm"
+                className="w-full h-[48px] px-5 flex items-center justify-between text-lg"
               >
 
                 <span>
